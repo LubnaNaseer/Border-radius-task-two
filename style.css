@@ -1,0 +1,56 @@
+body{
+   color: rgb(57, 59, 59);
+   font-size: medium;font-weight: bolder;
+   background-color:plum;
+}
+p{
+   width:180px ;
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 70px;
+}
+#one{
+   border-style: groove ridge dashed groove;
+   border-width: 7px 30px 7px 30px;
+   border-radius: 150px 150px 0px 0px;
+   text-align: center;
+   border-color: rgb(89, 182, 89);
+   padding: 50px;
+   box-shadow: 3px 3px 3px rgb(89, 182, 89);
+}
+#two{
+   border-style: none double none double;
+   border-width: 35px;
+   padding: 50px;
+   border-radius: 50px 50px 150px 150px;
+   border-color: rgb(212, 47, 102);
+   text-align: center;
+}
+.container-2{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin:70px;
+
+}
+#three{
+   border-style: ridge ridge ridge ridge;
+   border-width: 20px;
+   border-radius: 8px 100px 100px 8px;
+   text-align: center;
+   border-color: rgb(33, 190, 72) rgb(173, 233, 7) rgb(6, 157, 168) rgb(196, 13, 98); 
+box-shadow: 5px 5px 10px green;
+   padding:50px ;
+}
+#four{
+   border-style: solid inset solid outset;
+   border-width: 4px 40px 4px 40px;
+   border-radius: 8px 150px 8px 150px ;
+   text-align: center;
+   border-color: rgb(20, 150, 201) rgb(9, 134, 207) rgb(207, 10, 69) rgb(230, 26, 121);
+   box-shadow:rgb(36, 121, 231)  rgb(11, 136, 219) rgb(250, 69, 123);
+ padding: 50px;
+}
